@@ -16,7 +16,7 @@ export default class Erc712 extends React.Component {
       typeData: '[{"name":"_symbol","type":"string"},{"name":"_grantee","type":"address"},{"name":"_shares","type":"uint256"},{"name":"_start","type":"uint256"},{"name":"_end","type":"uint256"},{"name":"_tokensPerMonth","type":"uint256"}]',
       message: '{"_symbol":"DAVID","_end":1559167200,"_grantee":"0x531e0957391dabf46f8a9609d799ffd067bdbbc0","_start":1558562400,"_tokensPerMonth":100,"_shares":1000}',
       typeDefinition:'',
-      privKey:'8940951A0A1E29635B9FB6C8090A1A906B86B8B6ED663F9B321FCAD12433AA24'
+      privKey:''
     };
 
     this.handleChange = this.handleChange.bind(this);
